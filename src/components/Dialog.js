@@ -9,7 +9,7 @@ const Dialog = ({ open, setShowDialog }) => {
         </span>
         <h2>React is awesome.</h2>
         <p>
-          lorem ipsum dolor sit et due, coniet, purpose, dragons njskjnlgskangj
+        Thank you so much for taking the time to leave an excellent rating. We really appreciate your business. Please let us know what we can do for you in the future.
         </p>
         <button
           className="close-btn"
