@@ -4,7 +4,7 @@ import Star from "./Star"
 const StarRating = () => {
 
     const [rating, updateRating] = useState(0);
-    const messages = ['Very poor', 'Poor', 'Fair', 'Good', 'Excellent']
+    const messages = ['Very poor', 'Poor', 'Good', 'Very Good', 'Excellent']
     const dummyArr = [0,0,0,0,0]
     const starComponents = dummyArr.map((_, index) => {
         return <Star key={index} rating={rating} pos={index + 1} updateRating={updateRating}/>
